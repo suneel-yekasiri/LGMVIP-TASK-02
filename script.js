@@ -29,7 +29,6 @@ const getUsers = async () => {
 loader.style.display="none";
 
 
-
 // Clear existing user cards
 
 userGrid.innerHTML = "";
@@ -72,8 +71,6 @@ loader.style.display = "none";
 alert("There was an error fetching the user data. Please try again later.");
 }
 };
-
-
 
 
 getUsersBtn.addEventListener("click", getUsers);
